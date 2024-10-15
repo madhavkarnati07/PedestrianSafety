@@ -1,0 +1,13 @@
+Installation 
+    1) Download Deepstream SDK - https://catalog.ngc.nvidia.com/orgs/nvidia/collections/deepstream_sdk
+    2) Quick start quide - https://docs.nvidia.com/metropolis/deepstream/dev-guide/text/DS_Quickstart.html
+
+
+
+To run detection and tracking from a video file:
+  $ cd deepstream_detect_track
+  $ python3 deepstream_test_2.py <video_file_name>
+  
+To run from a live video camera
+  $ cd deepstream-usbcam
+  $ python3 deepstream_test_1_usb.py <device_path (/dev/video0)>
